@@ -1,0 +1,22 @@
+extends template
+
+block content
+    form(style='text-align: center; font-family: Helvetica')
+        h1 w e l c o m e
+        h2 Sign up for Dorm Delivery
+        input(type='text' name='name' placeholder='Name') 
+        br
+        input(type='email' name='email' placeholder='Email') 
+        br
+        input(type='password' name='password' placeholder='Password')
+        br
+        input(type='number' name='classYear' placeholder='Class Year') 
+        br
+        input(type='text' name='address' placeholder='Address') 
+        br
+        input(type='text' name='isAdmin' placeholder='Admin?')
+        br
+        br
+        button(type='button' onclick='register()') register
+    
+
