@@ -1,2 +1,2 @@
-# dorm-api-frontend
-frontend of dorm api
+# coupon-frontend
+Frontend for the bootcamp Crimson Coupons app
